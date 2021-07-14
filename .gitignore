@@ -22,7 +22,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-/AccountManager-server/.idea/*
-/AccountManager-server/src/test/java/*
-
+/account-server/.idea/*
+/account-server/.mvn/*
+/account-server/src/test/*
+mvnw
+mvnw.cmd
 *.iml
