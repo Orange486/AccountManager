@@ -1,25 +1,22 @@
-# 环境安装
+# account-web
 
-## 1. Node.js安装
+> A Vue.js project
 
-### 1.1 官网下载msi文件
+## Build Setup
 
-### 1.2 无脑点击下一步
+``` bash
+# install dependencies
+npm install
 
-### 1.3 安装node.js 淘宝镜像cnpm
+# serve with hot reload at localhost:8080
+npm run dev
 
-//:   -g就是全局安装  
-npm install cnpm -g
-有时进度条安装不动 npm install -g cnpm --registry=https://registry.npm.taobao.org
+# build for production with minification
+npm run build
 
-//: 或使用下面语句<br/>npm install --registry==https://registry.npm.taobao.org
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-### 1.4 使用代理registry
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-npm config set registry https://registry.npm.taobao.org
-
-1.3或1.4选择其一。
-
-## 2. 安装vue-cli
-
-cnpm install vue-cli -g
